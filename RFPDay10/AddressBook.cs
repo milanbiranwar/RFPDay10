@@ -11,6 +11,9 @@ namespace RFPDay10
 
 
         public static List<Contact> People = new List<Contact>();
+
+        public List<Contact> ContactBook { get; internal set; }
+
         public void AddNewContact()
         {
             Contact person = new Contact();

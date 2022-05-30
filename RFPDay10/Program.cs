@@ -3,6 +3,10 @@ using RFPDay10;
 
 Console.WriteLine("Hello, World!");
 
+MultipleAddressBook multiaddressBook = new MultipleAddressBook();
+multiaddressBook.DictionaryContacts();
+
+
 AddMultipleContact addressBook = new AddMultipleContact();
 
 addressBook.AddMultipleContact1();
