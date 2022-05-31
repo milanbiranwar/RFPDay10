@@ -3,9 +3,10 @@ using RFPDay10;
 
 Console.WriteLine("Hello, World!");
 
-MultipleAddressBook multiaddressBook = new MultipleAddressBook();
-multiaddressBook.DictionaryContacts();
 
+
+MultipleAddressBook obj = new MultipleAddressBook();
+obj.DictionaryContacts();
 
 AddMultipleContact addressBook = new AddMultipleContact();
 
@@ -26,3 +27,5 @@ string firstName1 = Console.ReadLine();
 addressBook.DeleteContact(firstName1);
 AddMultipleContact.PrintAddressBook();
 Console.ReadLine();
+
+
